@@ -147,7 +147,7 @@ h1{
 
 /* Formulario*/
 .titulo{
-    background-image: url(../assets/img/fondoboda\ \(1\).jpg);
+    background-image: url(../assets/img/fondoboda\ \(1\)\ \(1\).jpg);
     color: #FFF;
     background-repeat: no-repeat;
     background-size: cover;
@@ -310,13 +310,12 @@ h1{
 /*Bodas*/
 @media screen and (max-width: 768px) {
   .imagen-scroll {
-    padding: 5px 0; /* Menos espacio en pantallas pequeñas */
+    padding: 5px 0;
   }
 
   .imagen-scroll img {
-    /* Reducimos la altura para que no ocupen tanto espacio en la pantalla */
     height: 120px;
-    margin-right: 10px; /* Menos espacio entre las imágenes */
+    margin-right: 10px; 
   }
 
 /* Estilos de las imágenes y sus contenedores */
