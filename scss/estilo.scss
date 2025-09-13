@@ -224,3 +224,94 @@ h1 {
 		text-shadow: 2px 2px 4px rgb(0, 0, 0);
 	}
 }
+
+
+
+
+
+/*Responsive para celular*/
+// Inicio, resposive para celulares
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  .texto {
+    h2 {
+      font-size: 2.2em;
+      @include centrar-texto;
+    }
+  }
+  .contenedor {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+  .video {
+    width: 100%;
+    max-width: 500px;
+    video {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .texto {
+    text-align: justify;
+  }
+  .separador {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  //boda
+  .timeline-barra {
+    white-space: nowrap;
+  }
+  .preboda, .ceremonia {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+  }
+  .preboda, .ceremonia {
+    img {
+      width: 100%;
+      height: auto;
+      position: static;
+    }
+  }
+  .preboda, .caja1 {
+    h3, p {
+      position: static;
+      @include centrar-texto;
+      color: black;
+      text-shadow: none;
+      margin: 5px 0;
+      padding: 0 15px;
+    }
+  }
+  .contenedor-boda {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .item {
+    flex-direction: column;
+    align-items: center;
+    @include centrar-texto;
+    width: 90%;
+    margin-top: 20px;
+    img {
+      width: 100%;
+      height: auto;
+      margin-top: 15px;
+    }
+  }
+  // ubicacion
+  .ubicacion {
+    width: 100%;
+  }
+}
