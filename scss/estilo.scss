@@ -1,0 +1,226 @@
+$color_1: rgb(44, 44, 44);
+$color_2: #FFF;
+$color_3: #ffffff;
+$color_4: #000000;
+$color_5: white;
+$font-family_1: "Bitcount Single", system-ui;
+$font-family_2: "Roboto Condensed", sans-serif;
+$background-color_1: #00000000;
+$background-color_2: #9c916b;
+$background-color_3: rgba(255, 255, 255, 0.1);
+$background-color_4: #ffffff;
+$background-color_5: #1ab152;
+
+
+.encabezado {
+	background-image: url(../assets/img/bodafondo2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	position: sticky;
+}
+.navbar {
+	font-family: $font-family_1;
+	background-color: $background-color_1 !important;
+}
+main {
+	font-family: $font-family_2;
+}
+h1 {
+	color: $color_1;
+	text-align: center;
+}
+.contenedor {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.texto {
+	h2 {
+		font-size: 140px;
+	}
+}
+.separador {
+	border: none;
+	border-top: 2px solid #ccc;
+}
+.contenedor-carta {
+	background-color: $background-color_2;
+	h3 {
+		text-align: center;
+		font-size: 36px;
+		margin-bottom: 40px;
+		color: $color_2;
+	}
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 40px;
+}
+.item-servicio {
+	width: 250px;
+	background-color: $background-color_3;
+	padding: 20px;
+	border-radius: 10px;
+	color: $color_2;
+	text-align: center;
+	img {
+		width: 50px;
+		margin-bottom: 15px;
+	}
+	h4 {
+		margin-bottom: 10px;
+		font-size: 20px;
+	}
+	p {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+}
+.publicidad {
+	h3 {
+		text-align: center;
+	}
+}
+.calesita {
+	width: 60%;
+	margin: 10px auto;
+}
+.float {
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 30px;
+	right: 20px;
+	background-color: $background-color_4;
+	color: $color_3;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+	&:hover {
+		text-decoration: none;
+		color: $color_2;
+		background-color: $background-color_5;
+		animation-iteration-count: infinite;
+	}
+}
+.my-float {
+	margin-top: 16px;
+}
+.redes-sociales {
+	display: flex;
+	justify-content: space-between;
+	width: 15%;
+	height: 15%;
+	align-items: center;
+}
+.nosotros-nosotros {
+	background-color: $background-color_2;
+	img {
+		width: 100%;
+		height: 500px;
+	}
+	p {
+		color: $color_2;
+		font-size: 15px;
+	}
+}
+.titulo {
+	background-image: url(../assets/img/fondoboda\ \(1\).jpg);
+	color: $color_2;
+	background-repeat: no-repeat;
+	background-size: cover;
+	h1 {
+		color: $color_4;
+	}
+}
+.imagen-scroll {
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	-webkit-overflow-scrolling: touch;
+	img {
+		display: block;
+		width: auto;
+		height: auto;
+		max-height: 100%;
+	}
+}
+.preboda {
+	border: #000000 solid;
+	height: 550px;
+	width: 1286px;
+	position: relative;
+	margin-left: 2.7%;
+	background-color: $background-color_4;
+	h3 {
+		position: absolute;
+		top: 30%;
+		text-align: center;
+		color: $color_3;
+		margin-right: 40%;
+		margin-left: 45%;
+		text-shadow: 3px 3px 5px rgb(0, 0, 0);
+	}
+	p {
+		position: absolute;
+		top: 40%;
+		text-align: center;
+		color: $color_3;
+		margin-left: 30%;
+		margin-right: 30%;
+		text-shadow: 2px 2px 4px rgb(0, 0, 0);
+	}
+}
+.contenedor-boda {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	max-width: 45%;
+	margin-top: 5%;
+	img {
+		width: 80%;
+		height: auto;
+		margin-top: 5%;
+	}
+}
+.ceremonia {
+	img {
+		margin-left: 15%;
+		margin-top: 5%;
+		width: 70%;
+		position: relative;
+	}
+}
+.caja1 {
+	h3 {
+		position: absolute;
+		text-align: center;
+		left: 45%;
+		top: 300%;
+		color: $color_5;
+		text-shadow: 3px 3px 5px black;
+	}
+	p {
+		position: absolute;
+		text-align: center;
+		top: 310%;
+		left: 40%;
+		right: 40%;
+		color: $color_5;
+		text-shadow: 2px 2px 4px rgb(0, 0, 0);
+	}
+}
