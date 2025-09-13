@@ -131,8 +131,7 @@ h1 {
 	}
 }
 .titulo {
-	background-image: url(../assets/img/fondoboda\ \(1\)\ \(1\).jpg);
-	color: $color_2;
+	background-image: url(../assets/img/fondoboda.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	h1 {
@@ -263,7 +262,7 @@ h1 {
   }
 
   //boda
-  
+  @media screen and (max-width: 768px){
   .preboda, .ceremonia {
     position: relative;
     display: flex;
@@ -307,6 +306,7 @@ h1 {
       height: auto;
       margin-top: 15px;
     }
+  }
   }
   // ubicacion
   .ubicacion {
