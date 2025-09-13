@@ -1,0 +1,226 @@
+.encabezado {
+  background-image: url(../assets/img/bodafondo2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: sticky;
+}
+
+.navbar {
+  font-family: "Bitcount Single", system-ui;
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+main {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  color: rgb(44, 44, 44);
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto h2 {
+  font-size: 140px;
+}
+
+.separador {
+  border: none;
+  border-top: 2px solid #ccc;
+}
+
+.contenedor-carta {
+  background-color: #9c916b;
+}
+.contenedor-carta h3 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #FFF;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.item-servicio {
+  width: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  color: #FFF;
+  text-align: center;
+}
+.item-servicio img {
+  width: 50px;
+  margin-bottom: 15px;
+}
+.item-servicio h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.item-servicio p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.publicidad h3 {
+  text-align: center;
+}
+
+.calesita {
+  width: 60%;
+  margin: 10px auto;
+}
+
+.float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 30px;
+  right: 20px;
+  background-color: #ffffff;
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+.float:hover {
+  text-decoration: none;
+  color: #FFF;
+  background-color: #1ab152;
+  animation-iteration-count: infinite;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  height: 15%;
+  align-items: center;
+}
+
+.nosotros-nosotros {
+  background-color: #9c916b;
+}
+.nosotros-nosotros img {
+  width: 100%;
+  height: 500px;
+}
+.nosotros-nosotros p {
+  color: #FFF;
+  font-size: 15px;
+}
+
+.titulo {
+  background-image: url(../assets/img/fondoboda\ \(1\).jpg);
+  color: #FFF;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.titulo h1 {
+  color: #000000;
+}
+
+.imagen-scroll {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+.imagen-scroll img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 100%;
+}
+
+.preboda {
+  border: #000000 solid;
+  height: 550px;
+  width: 1286px;
+  position: relative;
+  margin-left: 2.7%;
+  background-color: #ffffff;
+}
+.preboda h3 {
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  color: #ffffff;
+  margin-right: 40%;
+  margin-left: 45%;
+  text-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+.preboda p {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 30%;
+  margin-right: 30%;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.contenedor-boda {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 45%;
+  margin-top: 5%;
+}
+.item img {
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+}
+
+.ceremonia img {
+  margin-left: 15%;
+  margin-top: 5%;
+  width: 70%;
+  position: relative;
+}
+
+.caja1 h3 {
+  position: absolute;
+  text-align: center;
+  left: 45%;
+  top: 300%;
+  color: white;
+  text-shadow: 3px 3px 5px black;
+}
+.caja1 p {
+  position: absolute;
+  text-align: center;
+  top: 310%;
+  left: 40%;
+  right: 40%;
+  color: white;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}/*# sourceMappingURL=estilo.css.map */
