@@ -375,3 +375,54 @@ h1{
         width: 100%;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+/*prueba cumple*/
+.contenedor-texto{
+  display: flex;
+}
+
+.text-1{
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+
+.ceremonia{
+  display: inline-block;
+  text-align: center;
+}
+.ceremonia img{
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative
+}
+.text-2 h3{
+  position: absolute;
+      top: 10px; /* altura desde arriba */
+      left: 10px; /* distancia desde la izquierda */
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* para que contraste mejor con la imagen */
+      padding: 5px 10px;
+      font-size: 20px;
+}
+.text-2 p{
+  position: absolute;
+      top: 10px; /* altura desde arriba */
+      left: 10px; /* distancia desde la izquierda */
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* para que contraste mejor con la imagen */
+      padding: 5px 10px;
+      font-size: 20px;
+}
