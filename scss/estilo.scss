@@ -230,36 +230,70 @@ h1 {
 
 /*Responsive para celular*/
 // Inicio, resposive para celulares
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 2.5em;
+@media (max-width: 768px) {
+  .texto h2 {
+    font-size: 80px;
   }
-  .texto {
-    h2 {
-      font-size: 2.2em;
-      @include centrar-texto;
-    }
+  .contenedor-carta h3 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .item-servicio {
+    width: 200px;
+    padding: 16px;
+  }
+  .item-servicio img {
+    width: 40px;
+    margin-bottom: 12px;
+  }
+  .item-servicio h4 {
+    font-size: 18px;
+  }
+  .item-servicio p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto h2 {
+    font-size: 60px;
+  }
+  .grid {
+    gap: 30px;
+  }
+  .item-servicio {
+    width: 180px;
+    padding: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .texto h2 {
+    font-size: 40px;
   }
   .contenedor {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 15px;
+    padding: 10px;
   }
-  .video {
+  .grid {
+    flex-direction: column; /* ponerlos en columna para móviles */
+    gap: 20px;
+  }
+  .item-servicio {
     width: 100%;
-    max-width: 500px;
-    video {
-      width: 100%;
-      height: auto;
-    }
+    max-width: 300px; /* para que no quede enorme si hay mucho ancho */
+    padding: 12px;
   }
-  .texto {
-    text-align: justify;
+  .item-servicio img {
+    width: 35px;
+    margin-bottom: 10px;
   }
-  .separador {
-    width: 80%;
-    margin: 10px auto;
+  .item-servicio h4 {
+    font-size: 16px;
   }
+  .item-servicio p {
+    font-size: 12px;
+  }
+}
 
   //boda
   @media screen and (max-width: 768px){
