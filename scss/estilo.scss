@@ -230,191 +230,79 @@ h1 {
 
 /*Responsive para celular*/
 // Inicio, resposive para celulares
-@media screen and (max-width: 768px){
-.contenedor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; // Para que se apilen en dispositivos móviles
-
-    @include desktop-up {
-        flex-direction: row; // Vuelven a la fila en desktop
+@media screen and(max-width: 768px) {
+    h1{
+    font-size: 24px;
+    padding: 0 10px;
     }
+    .contenedor{
+    flex-direction: column;
+    padding: 10px;
+    }
+    .texto{
+        font-size: 50px;
+    }
+    .separador {
+  border: none;
+  border-top: 2px solid #ccc;
 }
-
-.texto {
-    h2 {
-        font-size: 60px; // Tamaño de fuente para móvil
-        text-align: center;
-
-        @include desktop-up {
-            font-size: 140px; // Tamaño de fuente para desktop
-        }
-    }
+    .contenedor-carta {
+  background-color: $background-color_2;
 }
-
-.separador {
-    border: none;
-    border-top: 2px solid #ccc;
-    width: 80%; // Ancho adaptable
-    margin: 20px auto;
+    h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    }
+    .grid{
+        gap: 20px;
+    }
+    .item-servicio {
+  width: 250px;
+  background-color: $background-color_3;
+  padding: 20px;
+  border-radius: 10px;
+  color: $color_2;
+  text-align: center;
 }
-
-.contenedor-carta {
-    background-color: $background-color_2;
-    padding: 20px;
-    h3 {
-        text-align: center;
-        font-size: 24px; // Tamaño de fuente más pequeño para móvil
-        margin-bottom: 20px;
-        color: $color_2;
-
-        @include desktop-up {
-            font-size: 36px;
-            margin-bottom: 40px;
-        }
+    img{
+        width: 40px;
     }
-}
-
-.grid {
-    display: flex;
-    flex-direction: column; // Los elementos se apilan en móvil
-    gap: 20px;
-
-    @include desktop-up {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 40px;
+    h4{
+     font-size: 18px;
     }
-}
-
-.item-servicio {
-    width: 100%; // Ocupa el 100% del contenedor en móvil
-    background-color: $background-color_3;
-    padding: 20px;
-    border-radius: 10px;
-    color: $color_2;
-    text-align: center;
-    img {
-        width: 50px;
-        margin-bottom: 15px;
+    p{
+        font-size: 12px;
     }
-    h4 {
-        margin-bottom: 10px;
-        font-size: 20px;
-    }
-    p {
-        font-size: 14px;
-        line-height: 1.4;
-    }
-
-    @include desktop-up {
-        width: 250px; // Vuelve a su ancho fijo en desktop
-    }
-}
-
-.publicidad {
-    h3 {
-        text-align: center;
+    .publicidad{
+        h3{
         font-size: 24px;
-        
-        @include desktop-up {
-            font-size: 36px;
+        padding: 0 10px;
         }
     }
-}
-
-.calesita {
-    width: 90%; // Ocupa más espacio en móvil
-    margin: 10px auto;
-
-    @include desktop-up {
-        width: 60%;
-    }
-}
-
-.float {
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    bottom: 30px;
-    right: 20px;
-    background-color: $background-color_4;
-    color: $color_3;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-    &:hover {
-        text-decoration: none;
-        color: $color_2;
-        background-color: $background-color_5;
-        animation-iteration-count: infinite;
-    }
-}
-
-.my-float {
-    margin-top: 16px;
-}
-
-.redes-sociales {
-    display: flex;
-    justify-content: space-around; // Mejor espaciado en móvil
-    width: 50%; // Ancho más grande para que se vean bien
-    height: auto;
-    align-items: center;
-
-    @include desktop-up {
-        width: 15%;
-        justify-content: space-between;
-    }
-}
-
-.nosotros-nosotros {
-    background-color: $background-color_2;
-    img {
+    .calesita{
         width: 100%;
-        height: 250px; // Altura más pequeña para móvil
-        object-fit: cover; // Para que la imagen no se distorsione
-        
-        @include desktop-up {
-            height: 500px;
-        }
+        margin: 10px 0;
     }
-    p {
-        color: $color_2;
-        font-size: 15px;
-        padding: 10px; // Añadir un poco de padding en móvil
+    .float{
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+        bottom: 20px;
+        right: 15px;
     }
-}
-
-.titulo {
-    background-image: url(../assets/img/fondoboda.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; // Asegura que la imagen se vea bien en todas las pantallas
-    padding: 20px; // Añadir padding
-    h1 {
-        color: $color_4;
+    .my-float{
+        margin-top: 12px;
+    }
+    .redes-sociales{
+        width: 60%;
+    height: auto;
+    justify-content: center;
+    gap: 10px;
     }
 }
 
-.imagen-scroll {
-    width: 100%;
-    overflow-x: auto;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
-    white-space: nowrap; // Evita que las imágenes se apilen verticalmente
-    img {
-        display: inline-block; // Asegura que las imágenes se muestren en línea
-        max-width: none; // Para que la imagen no se reduzca
-        height: auto;
-        width: auto;
-    }
-}
-}
+
   //boda
   @media screen and (max-width: 768px){
   .preboda, .ceremonia {
