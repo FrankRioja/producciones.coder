@@ -230,36 +230,47 @@ h1 {
 
 /*Responsive para celular*/
 // Inicio, resposive para celulares
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 2.5em;
-  }
-  .texto {
-    flex-direction: column;
-    h2 {
-      font-size: 2.2em;
-      @include centrar-texto;
-    }
-  }
-  .contenedor {
-    flex-direction: column !important;
-    align-items: center;
-    padding: 0 15px;
-  }
-  .video {
-    width: 100%;
-    video {
-      width: 100%;
-      height: auto;
-    }
-  }
-  .texto {
-    text-align: justify;
-  }
-  .separador {
-    width: 80%;
-    margin: 10px auto;  }
- }
+@media screen and (max-width: 768px){
+    h1 {
+  color: rgb(44, 44, 44);
+  text-align: center;
+  font-size: 2.5em; 
+}
+
+.texto h2 {
+  font-size: 2.2em;
+  text-align: center;
+}
+
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+}
+
+/* El video: se ajusta al ancho de la pantalla */
+.video {
+  width: 100%;
+  max-width: 500px;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+}
+
+.texto {
+  text-align: justify;
+}
+
+.separador {
+  width: 80%; 
+  margin: 10px auto;
+}
+
+}
   //boda
   @media screen and (max-width: 768px){
   .preboda, .ceremonia {
