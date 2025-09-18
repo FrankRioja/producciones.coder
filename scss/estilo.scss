@@ -10,7 +10,6 @@ $background-color-5: #1ab152;
 $font-family-1: "Bitcount Single", system-ui;
 $font-family-2: "Roboto Condensed", sans-serif;
 
-$mobile-max: 768px;
 
 
 // Estilos base
@@ -264,7 +263,7 @@ h1 {
 
 
 //responsive
-@media (max-width: $mobile-max) {
+@media (max-width: 768px) {
   .encabezado {
     height: 300px;
   }
