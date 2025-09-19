@@ -276,7 +276,7 @@ h1 {
   }
 
   .contenedor {
-    flex-direction: column;
+    flex-direction: column !important;
     padding: 0 10px;
     gap: 20px;
   }
