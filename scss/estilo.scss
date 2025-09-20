@@ -358,11 +358,21 @@ h1 {
     }
   }
 
-  .preboda {
-    width: 100% !important;
-    height: auto !important;
-    margin-left: 0 !important;
-    padding: 20px !important;
+.preboda {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 20px 0;
+  border: none;
+}
+
+.preboda img {
+  width: 100%;
+  height: auto;
+  position: static;
+}
 
     h3, p {
       position: static;
@@ -425,4 +435,3 @@ h1 {
   .ubicacion iframe{
     width: 100%;
   }
-}
