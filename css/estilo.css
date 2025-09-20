@@ -340,7 +340,7 @@ h1 {
   .caja1 h3, .caja1 p {
     position: static;
     margin: 0 auto;
-    top: auto;
+    top: 5px;
     left: auto;
     right: auto;
     font-size: 14px;
