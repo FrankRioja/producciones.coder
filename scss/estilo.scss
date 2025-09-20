@@ -395,17 +395,28 @@ h1 {
       margin-left: auto;
       margin-right: auto;
       width: 100%;
-      position: static;
+      position: relative;
       margin-top: 10px;
     }
   }
 
   .caja1 {
-    h3, p {
-      position: static;
+     p {
+      position: absolute;
       margin: 0 auto;
-      top: 5px;
+      top: 2450px;
       left: auto;
+      right: auto;
+      font-size: 14px;
+      padding: 0 10px;
+    }
+  }
+  .caja1{
+    h3{
+      position: absolute;
+      margin: 0 auto;
+      top: 2400px;
+      left: 220px;
       right: auto;
       font-size: 14px;
       padding: 0 10px;
