@@ -39,7 +39,6 @@ h1 {
 .contenedor-carta {
   background-color: #9c916b;
 }
-
 .contenedor-carta h3 {
   text-align: center;
   font-size: 36px;
@@ -62,17 +61,14 @@ h1 {
   color: #FFF;
   text-align: center;
 }
-
 .item-servicio img {
   width: 50px;
   margin-bottom: 15px;
 }
-
 .item-servicio h4 {
   margin-bottom: 10px;
   font-size: 20px;
 }
-
 .item-servicio p {
   font-size: 14px;
   line-height: 1.4;
@@ -101,7 +97,6 @@ h1 {
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
 }
-
 .float:hover {
   text-decoration: none;
   color: #FFF;
@@ -123,12 +118,10 @@ h1 {
 .nosotros-nosotros {
   background-color: #9c916b;
 }
-
 .nosotros-nosotros img {
   width: 100%;
   height: 500px;
 }
-
 .nosotros-nosotros p {
   color: #FFF;
   font-size: 15px;
@@ -140,14 +133,12 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .imagen-scroll {
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 }
-
 .imagen-scroll img {
   display: block;
   width: auto;
@@ -163,7 +154,6 @@ h1 {
   margin-left: 2.7%;
   background-color: #ffffff;
 }
-
 .preboda h3 {
   position: absolute;
   top: 30%;
@@ -173,7 +163,6 @@ h1 {
   margin-left: 45%;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
-
 .preboda p {
   position: absolute;
   top: 40%;
@@ -200,7 +189,6 @@ h1 {
   max-width: 45%;
   margin-top: 5%;
 }
-
 .item img {
   width: 80%;
   height: auto;
@@ -222,7 +210,6 @@ h1 {
   color: #FFF;
   text-shadow: 3px 3px 5px black;
 }
-
 .caja1 p {
   position: absolute;
   text-align: center;
@@ -338,6 +325,4 @@ h1 {
     font-size: 14px;
     padding: 0 10px;
   }
-} 
-
-/*# sourceMappingURL=estilo.css.map */
+}/*# sourceMappingURL=estilo.css.map */
