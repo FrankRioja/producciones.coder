@@ -281,6 +281,16 @@ h1 {
     gap: 20px;
   }
 
+.video {
+  width: 100%;
+  max-width: 500px;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+}
+
   .contenedor-carta {
     h3 {
       font-size: 26px;
