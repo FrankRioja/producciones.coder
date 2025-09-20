@@ -309,6 +309,10 @@ h1 {
     margin-left: 0;
     padding: 20px;
   }
+  .preboda .preboda img {
+    width: 100%;
+    height: auto;
+  }
   .preboda h3, .preboda p {
     position: static;
     margin: 0 auto;
