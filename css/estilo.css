@@ -305,11 +305,9 @@ h1 {
   }
   .preboda {
     position: relative;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 20px 0;
+    margin: auto;
     border: none;
   }
   .preboda img {
@@ -317,61 +315,63 @@ h1 {
     height: auto;
     position: static;
   }
-  h3, p {
-    position: static;
+  .preboda h3 {
+    position: absolute;
     margin: 0 auto;
-    top: auto;
+    top: 0;
+    left: 180px;
+    right: auto;
+    text-align: center;
+  }
+  .preboda p {
+    position: absolute;
+    margin: 0 auto;
+    top: 50px;
     left: auto;
     right: auto;
     text-align: center;
   }
-}
-.contenedor-boda {
-  flex-direction: column;
-  gap: 10px;
-  padding: 0 10px;
-}
-
-.item {
-  max-width: 100%;
-  margin-top: 20px;
-}
-
-.item img {
-  width: 100%;
-  margin-top: 10px;
-}
-
-.ceremonia img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  position: relative;
-  margin-top: 10px;
-}
-
-.caja1 p {
-  position: absolute;
-  margin: 0 auto;
-  top: 2350px;
-  left: auto;
-  right: auto;
-  font-size: 14px;
-  padding: 0 10px;
-}
-
-.caja1 h3 {
-  position: absolute;
-  margin: 0 auto;
-  top: 2300px;
-  left: 180px;
-  right: auto;
-  font-size: 14px;
-  padding: 0 10px;
-}
-
-.ubicacion iframe {
-  width: 100%;
+  .contenedor-boda {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .item {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .item img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .ceremonia img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+  }
+  .caja1 p {
+    position: absolute;
+    margin: 0 auto;
+    top: 2350px;
+    left: auto;
+    right: auto;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .caja1 h3 {
+    position: absolute;
+    margin: 0 auto;
+    top: 2300px;
+    left: 180px;
+    right: auto;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  .ubicacion iframe {
+    width: 100%;
+  }
 } 
 
 /*# sourceMappingURL=estilo.css.map */
