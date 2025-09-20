@@ -304,10 +304,10 @@ h1 {
     padding: 0 10px;
   }
   .preboda {
-    width: 550px;
-    height: auto;
-    margin-left: 0;
-    padding: 20px;
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    padding: 20px !important;
   }
   .preboda h3, .preboda p {
     position: static;

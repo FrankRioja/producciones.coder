@@ -359,10 +359,10 @@ h1 {
   }
 
   .preboda {
-    width: 550px;
-    height: auto;
-    margin-left: 0;
-    padding: 20px;
+    width: 100% !important;
+    height: auto !important;
+    margin-left: 0 !important;
+    padding: 20px !important;
 
     h3, p {
       position: static;
