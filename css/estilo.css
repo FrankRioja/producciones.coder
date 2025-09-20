@@ -340,7 +340,7 @@ h1 {
   .caja1 p {
     position: absolute;
     margin: 0 auto;
-    top: 2450px;
+    top: 2350px;
     left: auto;
     right: auto;
     font-size: 14px;
@@ -349,8 +349,8 @@ h1 {
   .caja1 h3 {
     position: absolute;
     margin: 0 auto;
-    top: 2400px;
-    left: 220px;
+    top: 2300px;
+    left: 190px;
     right: auto;
     font-size: 14px;
     padding: 0 10px;
