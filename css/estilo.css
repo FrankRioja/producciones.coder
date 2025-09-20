@@ -346,6 +346,10 @@ h1 {
     font-size: 14px;
     padding: 0 10px;
   }
+  .ubicacion iframe {
+    width: 100%;
+    height: auto;
+  }
 } 
 
 /*# sourceMappingURL=estilo.css.map */
