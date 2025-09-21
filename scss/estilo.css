@@ -43,7 +43,7 @@ h1 {
   text-align: center;
   font-size: 36px;
   margin-bottom: 40px;
-  color: #FFF;
+  color: #ffffff;
 }
 
 .grid {
@@ -58,7 +58,7 @@ h1 {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 20px;
   border-radius: 10px;
-  color: #FFF;
+  color: #ffffff;
   text-align: center;
 }
 .item-servicio img {
@@ -99,7 +99,7 @@ h1 {
 }
 .float:hover {
   text-decoration: none;
-  color: #FFF;
+  color: #ffffff;
   background-color: #1ab152;
 }
 
@@ -123,13 +123,13 @@ h1 {
   height: 500px;
 }
 .nosotros-nosotros p {
-  color: #FFF;
+  color: #ffffff;
   font-size: 15px;
 }
 
 .titulo {
   background-image: url(../assets/img/fondoboda.jpg);
-  color: #FFF;
+  color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -158,7 +158,7 @@ h1 {
   position: absolute;
   top: 30%;
   text-align: center;
-  color: #FFF;
+  color: #ffffff;
   margin-right: 40%;
   margin-left: 45%;
   text-shadow: 3px 3px 5px rgb(0, 0, 0);
@@ -167,7 +167,7 @@ h1 {
   position: absolute;
   top: 40%;
   text-align: center;
-  color: #FFF;
+  color: #ffffff;
   margin-left: 30%;
   margin-right: 30%;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
@@ -207,7 +207,7 @@ h1 {
   text-align: center;
   left: 45%;
   top: 300%;
-  color: #FFF;
+  color: #ffffff;
   text-shadow: 3px 3px 5px black;
 }
 .caja1 p {
@@ -216,7 +216,7 @@ h1 {
   top: 310%;
   left: 40%;
   right: 40%;
-  color: #FFF;
+  color: #ffffff;
   text-shadow: 2px 2px 4px rgb(0, 0, 0);
 }
 
@@ -364,5 +364,8 @@ h1 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+  }
+  .titulo h1 {
+    color: #ffffff;
   }
 }/*# sourceMappingURL=estilo.css.map */

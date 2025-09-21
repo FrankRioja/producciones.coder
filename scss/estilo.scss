@@ -1,6 +1,6 @@
 // Variables
 $color-1: rgb(44, 44, 44);
-$color-2: #FFF;
+$color-2: #ffffff;
 $background-color-1: transparent; // #00000000
 $background-color-2: #9c916b;
 $background-color-3: rgba(255, 255, 255, 0.1);
@@ -447,5 +447,9 @@ h1 {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat; 
-}
+
+    h1{
+        color: $color-2;
+    }
+  }
 }
