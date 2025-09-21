@@ -133,6 +133,10 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.titulo h1 {
+  color: #ffffff;
+}
+
 .imagen-scroll {
   width: 100%;
   overflow-x: auto;
